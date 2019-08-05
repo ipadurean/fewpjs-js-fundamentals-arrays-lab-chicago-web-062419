@@ -4,5 +4,7 @@ const prepend = ["Milo", "Otis", "Garfield"]
 const removeLast = ["Milo", "Otis", "Garfield"]
 const removeFirst = ["Milo", "Otis", "Garfield"]
 
-append.push("Odie")
+function append(array) {
+  return array.push("Odie")
+}
 prepend.unshift("pet")
